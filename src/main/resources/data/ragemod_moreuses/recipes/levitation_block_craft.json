@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ragemod:apofillit"
+    },
+    "3": {
+      "item": "ragemod:apofillit"
+    },
+    "4": {
+      "item": "ragemod:parketta"
+    },
+    "5": {
+      "item": "ragemod:apofillit"
+    },
+    "7": {
+      "item": "ragemod:apofillit"
+    }
+  },
+  "result": {
+    "item": "ragemod_moreuses:levitation_block",
+    "count": 1
+  }
+}

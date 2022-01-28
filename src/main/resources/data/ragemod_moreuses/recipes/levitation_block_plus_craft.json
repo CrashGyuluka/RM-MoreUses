@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ragemod:rageium"
+    },
+    "3": {
+      "item": "ragemod:rageium"
+    },
+    "4": {
+      "item": "ragemod_moreuses:levitation_block"
+    },
+    "5": {
+      "item": "ragemod:rageium"
+    },
+    "7": {
+      "item": "ragemod:rageium"
+    }
+  },
+  "result": {
+    "item": "ragemod_moreuses:levitation_block_plus",
+    "count": 1
+  }
+}

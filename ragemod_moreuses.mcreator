@@ -1,0 +1,130 @@
+{
+  "mod_elements": [
+    {
+      "name": "LevitationBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_block",
+      "path": "~/parkour blocks"
+    },
+    {
+      "name": "LevitationBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/parkour blocks/procedures"
+    },
+    {
+      "name": "RageModMoreUsesTab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_mod_more_uses_tab"
+    },
+    {
+      "name": "LevitationBlockCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "levitation_block_craft",
+      "path": "~/parkour blocks/craft"
+    },
+    {
+      "name": "LevitationBlockPlus",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_block_plus",
+      "path": "~/parkour blocks"
+    },
+    {
+      "name": "LevitationBlockPlusEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_block_plus_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/parkour blocks/procedures"
+    },
+    {
+      "name": "LevitationBlockPlusCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "levitation_block_plus_craft",
+      "path": "~/parkour blocks/craft"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.ragemod_moreuses.levitation_block_plus": "Levitation Block",
+      "itemGroup.tabrage_mod_more_uses_tab": "RM: More Uses Tab",
+      "block.ragemod_moreuses.levitation_block": "Levitation Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "parkour blocks",
+        "children": [
+          {
+            "name": "procedures",
+            "children": []
+          },
+          {
+            "name": "craft",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ragemod_moreuses",
+    "modName": "RageMod Addons: More Uses",
+    "version": "1.0 22wa",
+    "author": "CrashGyuluka",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "ragemod"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ragemodmoreuses",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

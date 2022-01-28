@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT License"
+
+[[mods]]
+modId="ragemod_moreuses"
+version="1.0 22wa"
+displayName="RageMod Addons: More Uses"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="CrashGyuluka"
+
+[[dependencies.ragemod_moreuses]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.ragemod_moreuses]]
+    modId="ragemod"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

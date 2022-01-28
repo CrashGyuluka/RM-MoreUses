@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ragemod_moreuses:blocks/lev_block_plus",
+    "particle": "ragemod_moreuses:blocks/lev_block_plus"
+  }
+}
